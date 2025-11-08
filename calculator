@@ -1,0 +1,10 @@
+name = input("Enter student name: ")
+math = int(input("Enter Math marks: "))
+eng = int(input("Enter English marks: "))
+
+total = math + eng
+avg = total / 2
+
+print("Student:", name)
+print("Total Marks:", total)
+print("Average:", avg)
